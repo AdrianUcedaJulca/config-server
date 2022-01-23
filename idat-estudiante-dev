@@ -14,9 +14,12 @@ spring:
     
 ########## MYSQL #################
   jpa:
+    database : MYSQL
+      naming-strategy : org.hibernate.cfg.ImprovedNamingStrategy
     hibernate:
       ddl-auto: create
     show-sql: true
+    generate-ddl: true
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5Dialect
