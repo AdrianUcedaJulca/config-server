@@ -22,6 +22,6 @@ spring:
         dialect: org.hibernate.dialect.MySQL5Dialect
   datasource:
     url: jdbc:mysql://localhost:3306/idat-estudiante
-    username: sa
+    username: root
     password: admin
     driver-class-name: com.mysql.jdbc.Driver
